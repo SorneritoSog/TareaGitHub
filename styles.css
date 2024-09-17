@@ -53,3 +53,17 @@ img {
     padding-left: 18px;
     margin-right: 10px;
 }
+
+.informacion-carrito {
+    color: #CDCDCD;
+}
+
+.contenido-de-carrito {
+    float: left;
+    padding-left: 25%;
+}
+
+.info-compra {
+    float: right;
+    padding-right: 25%;
+}
