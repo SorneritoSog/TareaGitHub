@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #070707;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.navegacion {
+    width: 100%;
+    height: 180px;
+    background-color: #111111;
+    text-align: center;
+}
+
+.volver {
+    float: left;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.volver h1 {
+    color: #CDCDCD;
+    cursor: pointer;
+}
+
+.buscar {
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.buscar input {
+    background-color: #CDCDCD;
+    opacity: 50%;
+    height: 36px;
+    width: 710px;
+    border-radius: 25px;
+    padding-left: 18px;
+    margin-right: 10px;
+}
